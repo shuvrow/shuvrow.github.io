@@ -6,125 +6,107 @@
     <!--<link rel="import" href="layouts/css.html">-->
     <!--<link rel="import" href="layouts/js.html">-->
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
 
-    <style>
-        body{
-            font-size: large;
-            background-color: #ffffff;
-            margin: 0px;
-            padding: 0px;
-            border: 0px;
-        }
 
-        .mainContent{
-            margin-top: 250px;
-            font-size: 25px;
-            color: black;
-            text-decoration: solid;
-        }
-        .sideMenu {
-            margin-top: 50px;
-        }
-        .sideView {
-            margin-top: 200px;
-        }
-        .aboutShuvrow
-        {
-            display: none;
-            float: left;
-            text-align: left;
-            margin-top: 20px;
-        }
-        .myDayToDayLife{
-            display: none;
-            text-align: left;
-        }
-
-
-
-
-    </style>
 </head>
 <body>
 
 <div class="">
     <div class="row topUp">
+
         <div class="col-md-12 ">
-            <div class="col-md-3 sideMenu">
-                <button id="aboutMe">Poor Me</button>
-                <br>
-                <p class="aboutShuvrow">
-                    Hello folks my friends call me <strong>Shuvrow</strong>. <br><br>
-                    My parents and relatives call me <strong>Bappu</strong>. <br><br>
-                    My Colleagues prefer <strong>Rashed</strong>. <br><br>
-                    You are freaking out right?? <br><br>
-                    <button class="typeOfWork">i am good for?</button>
-                </p>
-                <div class="myDayToDayLife">
-                    <p>
+            <div class="col-md-3">
+                <button class="pastMe btn">Back To D Past</button>
+
+                <div class="sideMenu col-md-12">
+                    <button id="aboutMe">About Me</button>
+                    <br>
+                    <p class="aboutShuvrow">
+                        <span class=" fa fa-hand-o-right"></span>Hello folks my friends call me <strong>Shuvrow</strong>. <br><br>
+                        <span class="fa fa-hand-o-right"></span>My parents and relatives call me <strong>Bappu</strong>. <br><br>
+                        <span class="fa fa-hand-o-right"></span>My Colleagues prefer <strong>Rashed</strong>. <br><br>
+
+                    </p>
+                    <p class="aboutShuvrow">
                         <strong>Intro</strong><br>
                         Basically i am a Software Engineer. <br>
                         I make software , web application more accurately. <br>
                     </p>
-                    <p>
-                        <strong>Technology</strong> <br>
-                    <ul>
-                        <li>PHP</li>
-                        <li>JS</li>
-                        <li>Python</li>
-                    </ul>
-                    </p>
-                    <p>
-                        <strong>Framework I love</strong>
-                    <ul>
-                        <li>Laravel(in love)</li>
-                        <li>Vue.js(Very Interesting)</li>
-                        <li>openCart</li>
-                        <li>Angular Js</li>
-                        <li>Django(Interested In)</li>
-                    </ul>
 
-                    </p>
-                    <p>
-                        <strong>Tools I frequently use</strong>
-                    <ul>
-                        <li>PhpStorm</li>
-                        <li>Bracket</li>
-                        <li>Gimp</li>
-                        <li>Gulp</li>
-                    </ul>
+                    <p class="learnMore">
+                        Don't freak out!!! <br><br>
+                        <button class="typeOfWork  btn-lg btn-warning">Good for?</button>
                     </p>
 
-                    <p>
-                        <strong>Management</strong> <br>
-                    <ul><u>Product Management</u>
-                        <li>Version Controlling(yeah i love git!!)</li>
-                        <li>Server Management</li>
-                    </ul>
-                    <ul><u>Project Management</u>
-                        <li>Leankit</li>
-                        <li>Asana</li>
-                    </ul>
+                    <div class="myDayToDayLife">
+                        <button class="btn" id="nameBack">About Me</button>
 
-                    </p>
+                        <p>
+                            <strong>Technology</strong> <br>
+                        <ul>
+                            <li>PHP</li>
+                            <li>JS</li>
+                            <li>Python</li>
+                        </ul>
+                        </p>
+                        <p>
+                            <strong>Framework I love</strong>
+                        <ul>
+                            <li>Laravel(in love)</li>
+                            <li>Vue.js(Very Interesting)</li>
+                            <li>openCart</li>
+                            <li>Angular Js</li>
+                            <li>Django(Interested In)</li>
+                        </ul>
+
+                        </p>
+                        <p>
+                            <strong>Tools I frequently use</strong>
+                        <ul>
+                            <li>PhpStorm</li>
+                            <li>Bracket</li>
+                            <li>Gimp</li>
+                            <li>Gulp</li>
+                        </ul>
+                        </p>
+
+                        <p>
+                            <strong>Management</strong> <br>
+                        <ul><u>Product Management</u>
+                            <li>Version Controlling(yeah i love git!!)</li>
+                            <li>Server Management</li>
+                        </ul>
+                        <ul><u>Project Management</u>
+                            <li>Leankit</li>
+                            <li>Asana</li>
+                        </ul>
+
+                        </p>
 
 
+                    </div>
                 </div>
+
+
             </div>
             <div class="col-md-6 mainContent">
 
             </div>
             <div class="col-md-3 sideView">
+                <button class="futureMe">Back To D Future</button>
             </div>
         </div>
     </div>
 </div>
 <script>
-    var welcomeString='Working on It!! Wait for me a little longer!!!';
+    var welcomeString='Working on It!! Wait  a little longer!!!';
     var count=0;
-    var msg='';
+    var msg="<span class='fa fa-paperclip text-primary'></span>";
     welcomeString=welcomeString.split(" ");
 
 
@@ -138,21 +120,49 @@
     function showMsg(msgg)
     {
         msg +=msgg+' ';
-        $('.mainContent').text(msg);
+        $('.mainContent').html(msg);
     }
 
-    $('.sideView').append("<img src='images/working.gif'>");
+    $('.sideView').append("<img src='images/working.gif' class='working'>");
 
     $('#aboutMe').click(function(){
-        $('.aboutShuvrow').css('display','block');
+        onAboutMe();
+
     });
     $('.typeOfWork').click(function(){
+        onTypeOfWork();
+        var content=$('.myDayToDayLife').html();
+        $('.mainContent').html(content);
+        $('#nameBack').css('display','block');
+        $('.working').css('display','none');
+        $('.sideView').append("<img src='images/idea.gif' class='working'>");
+
+    });
+    $('.mainContent').on('click','#nameBack',function(){
+
+        onBackToPoorMe();
+    });
+    function onAboutMe(){
+        $('.aboutShuvrow').css('display','block');
+        $('.learnMore').css('display','block');
+    }
+    function onTypeOfWork(){
+        $('.sideMenu').css('visibility','hidden');
+        $('.pastMe').css('display','block');
+        $('.futureMe').css('visibility','visible');
         clearInterval(appendMyApologies);
         $('.mainContent').html('');
         $('.mainContent').css('margin-top','50px');
-        var content=$('.myDayToDayLife').html();
-        $('.mainContent').html(content);
-    });
+    }
+    function onBackToPoorMe(){
+        $('.sideMenu').css('visibility','visible');
+        $('.pastMe').css('display','none');
+        $('.futureMe').css('visibility','hidden');
+        $('.mainContent > #nameBack').css('display','none');
+        $('.sideView > .working').css('display','none');
+        $('.sideView').append("<img src='images/working.gif' class='working'>");
+    }
+
 </script>
 
 </body>
