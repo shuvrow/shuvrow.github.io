@@ -1,122 +1,110 @@
-body{
-    font-size: large;
-    background-color: #ffffff;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    width:100%;
-    overflow-x: hidden;
+body {
+  font-size: large;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  overflow-x: hidden; }
 
-}
+.mainContent {
+  margin-top: 250px;
+  font-size: 25px;
+  color: black;
+  text-decoration: solid;
+  text-align: left; }
 
-.mainContent{
-    margin-top: 250px;
-    font-size: 25px;
-    color: black;
-    text-decoration: solid;
-    text-align: left;
-}
 .sideMenu {
-    margin-top: 50px;
-}
+  margin-top: 50px; }
+
 .sideView {
-    float: right;
-}
-.aboutShuvrow
-{
-    display: none;
-    float: left;
-    text-align: left;
-    margin-top: 20px;
-    border-left: solid #7b2a80 5px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-}
-.learnMore{
-    display: none;
+  float: right; }
 
-}
-.myDayToDayLife{
-    display: none;
-    text-align: left;
-}
-.typeOfWork{
-    color: black;
-    box-shadow: #2e443f ;
-    font-weight: bold;
-    border-radius: 15px ;
-    border: solid black 5px;
-    min-width:150px;
-    min-height: 100px;
-}
-ul>li{
-    list-style: none;
-}
-li{
-    border-left: solid #a4aaff 5px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-}
+.aboutShuvrow {
+  display: none;
+  float: left;
+  text-align: left;
+  margin-top: 20px;
+  border-left: solid #7b2a80 5px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px; }
 
-.pastMe{
-    display: none;
-    text-align: center;
-    background-color: #FFFFFF;
-    float: left;
-    margin: 40px;
-    box-shadow: #2e443f ;
-    font-weight: bold;
-    border-radius: 15px ;
-    border: solid black 5px;
-    width:150px;
-    min-height: 100px;
-}
-.pastMe:hover{
-    color: white;
-    background-color: #000000;
+.learnMore {
+  display: none; }
 
-}
-.futureMe{
-    visibility: hidden;
-    text-align: center;
-    background-color: #FFFFFF;
-    float: right;
-    margin-top: 40px;
-    margin-right: 40px;
-    margin-bottom: 100px;
-    box-shadow: #2e443f ;
-    font-weight: bold;
-    border-radius: 15px ;
-    border: solid black 5px;
-    width:150px;
-    min-height: 100px;
-}
-.futureMe:hover{
-    color: white;
-    background-color: #000000;
+.myDayToDayLife {
+  display: none;
+  text-align: left; }
 
-}
-#nameBack,#aboutMe{
-    text-align: center;
-    background-color: #FFFFFF;
+.typeOfWork {
+  color: black;
+  box-shadow: #2e443f;
+  font-weight: bold;
+  border-radius: 15px;
+  border: solid black 5px;
+  min-width: 150px;
+  min-height: 100px; }
 
-    box-shadow: #2e443f ;
-    font-weight: bold;
-    border-radius: 15px ;
-    border: solid black 5px;
-    min-width:150px;
-    min-height: 100px;
-}
-#nameBack{
-    margin-right: 40px;
-    margin-bottom: 100px;
-    float: right;
+ul > li {
+  list-style: none; }
 
-}
-.working{
-    float: right;
-    margin: 0px;
-    border: 0px;
-}
+li {
+  border-left: solid #a4aaff 5px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px; }
 
+.pastMe {
+  display: none;
+  text-align: center;
+  background-color: #FFFFFF;
+  float: left;
+  margin: 40px;
+  box-shadow: #2e443f;
+  font-weight: bold;
+  border-radius: 15px;
+  border: solid black 5px;
+  width: 150px;
+  min-height: 100px; }
 
+.pastMe:hover {
+  color: white;
+  background-color: #000000; }
+
+.futureMe {
+  visibility: hidden;
+  text-align: center;
+  background-color: #FFFFFF;
+  float: right;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+  box-shadow: #2e443f;
+  font-weight: bold;
+  border-radius: 15px;
+  border: solid black 5px;
+  width: 150px;
+  min-height: 100px; }
+
+.futureMe:hover {
+  color: white;
+  background-color: #000000; }
+
+#nameBack, #aboutMe {
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: #2e443f;
+  font-weight: bold;
+  border-radius: 15px;
+  border: solid black 5px;
+  min-width: 150px;
+  min-height: 100px; }
+
+#nameBack {
+  margin-right: 40px;
+  margin-bottom: 100px;
+  float: right; }
+
+.working {
+  float: right;
+  margin: 0px;
+  border: 0px; }
