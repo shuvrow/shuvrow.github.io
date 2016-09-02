@@ -1,7 +1,3 @@
-/**
- * Created by bappu on 9/1/16.
- */
-
 var welcomeString='Working on It!! Wait  a little longer!!!';
 var count=0;
 var msg="<span class='fa fa-paperclip text-primary'></span>";
