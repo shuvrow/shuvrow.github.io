@@ -6,7 +6,8 @@ body{
   overflow-x: hidden;
   color: black;
 }
-
+.trainings,
+.workExperiences,
 .pastMe,
 .futureMe,
 .typeOfWork,
@@ -16,27 +17,38 @@ body{
   font-weight: bold;
   border-radius: 15px ;
   border: solid black 5px;
-  width:150px;
+  width:200px;
   min-height: 100px;
   font-size: 15px;
 }
 
 .pastMe:hover,
 .futureMe:hover,
-#nameBack:hover{
+#nameBack:hover,
+.workExperiences:hover,
+.trainings:hover{
   color: white;
   background-color: #000000;
 
 }
 
-.pastMe,
-.futureMe
+
+.futureMe,
 #nameBack{
   margin-right: 35px;
   margin-bottom: 100px;
 }
 .learnMore,
 .myDayToDayLife,
-.pastMe{
+.pastMe,
+.workExperiences,
+.trainings{
   display: none;
+}
+.pastMe,
+.workExperiences,
+.trainings{
+  margin-right: 35px;
+  margin-bottom: 10px;
+  float: left;
 }

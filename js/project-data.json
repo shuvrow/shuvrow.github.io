@@ -1,9 +1,5 @@
-/**
- * Created by bappu on 9/2/16.
- */
 
-var projects=
-[
+
     {
         "past":
         {
@@ -83,33 +79,6 @@ var projects=
                     "tools":"PHP,codeigniter,Js,Jquery,Mysql",
                     "status":"done"
                 }
-
-
-            ],
-            "training":[{
-                    "title":"Networking",
-                    "description":"Took a 2 months of training in BTCL on Telecommunication and Networking",
-                    "tools":"fiber optics,coaxial cable,hdlc, satellite communication",
-                    "learned":"Different media of communication, how it works, limitations and advantages.",
-                    "status":"done"
-                },
-                {
-                    "title":"FTFL",
-                    "description":"Fast Track Future Leader course took 3 months. Basically focused on Key factors of IT industries. " +
-                                    "First one month training held in BARD and remaining training held on BCC",
-                    "tools":"",
-                    "learned":"Softs kills: Effective Communication, Negotiation, Anger Management, Co-operation,Emotional Intelligence" +
-                                    "Hard Skills: SDLC, Agile Software Development, Kanban, SMAC Stack, Big Data, SCRUM"
-                                ,
-                    "status":"done"
-                },
-                {
-                    "title":"An Introduction to Interactive Programming in Python",
-                    "description":"2 months of Interactive Learning Session Under Rice University",
-                    "tools":"Python",
-                    "learned":"Learning Python through Game Development.",
-                    "status":"done"
-                }
             ]
 
         },
@@ -128,27 +97,70 @@ var projects=
                     "description":"Do some Amazing Stuffs",
                     "tools":"Python,Django,Angular",
                     "status":"Planning"
-            }],
-            "contribution":[{
-                    "title":"openSource contribution Y",
-                    "description":"Do Some amazing Stuffs",
-                    "tools":"PHP",
-                    "status":"Planning"
             }]
-        }
-    }];
-
-var contributions={
-            "contribution":[{
-            "title":"Database Auto Backup",
-            "description":"Manual Backup and Scheduled Backup of your Database. Currently Working for Laravel 5 or Above",
-            "tools":"PHP, Laravel 5.2 ,github, Packagist",
-            "status":"Ongoing"
         },
-        {
-            "title":"Ask and Answering Question on Stackoverflow",
-            "description":"Helping others by solving problems ",
-            "tools":"PHP, Laravel ,Python, js,JQuery",
-            "status":"Ongoing"
-        }
-    ]};
+        "contribution":[{
+              "title":"Database Auto Backup",
+              "description":"Manual Backup and Scheduled Backup of your Database. Currently Working for Laravel 5 or Above",
+              "tools":"PHP, Laravel 5.2 ,github, Packagist",
+              "status":"Ongoing"
+            }
+        ],
+        "otherActivity":[
+          {
+              "title":"Learning Diary",
+              "description":"I love to take note what i learn everyday to review my works later on. So i write on blogger.coom to help me as well as to help others",
+              "topics":"PHP, Laravel ,Python, js,JQuery,OpenCart,Git",
+              "status":"Ongoing",
+              "url":"https://prolaravel.blogspot.com/"
+          },
+          {
+              "title":"Ask and Answering Question on Stackoverflow",
+              "description":"Helping others by solving problems ",
+              "topics":"PHP, Laravel ,Python, js,JQuery",
+              "status":"Ongoing",
+              "url":"http://stackoverflow.com/users/2775615/shuvrow"
+          }
+        ],
+        "experiences":[
+          {
+              "companyName":"Liveoutsource Ltd.",
+              "position":"Software Engineer",
+              "time":"2014-09-01 to 2015-09-30",
+              "responsibility":"Develop web application, Database design and conduct knowledge sharing sessions"
+          },
+          {
+              "companyName":"Incepsys Ltd.",
+              "position":"Software Engineer",
+              "time":"2015-12-01 to present",
+              "responsibility":"Develop web application, Database design, Server Management, Team Management and Conduct knowledge sharing sessions"
+          }
+
+        ],
+        "training":[{
+              "title":"Networking",
+              "description":"Took a 2 months of training in BTCL on Telecommunication and Networking",
+              "topics":"fiber optics,coaxial cable,hdlc, satellite communication",
+              "learned":"Different media of communication, how it works, limitations and advantages.",
+              "status":"done"
+            },
+            {
+                "title":"FTFL",
+                "description":"Fast Track Future Leader course took 3 months. Basically focused on Key factors of IT industries. First one month training held in BARD and remaining training held on BCC",
+                "topics":"Soft skills, Hard Skills ",
+                "learned":"Soft skills: Effective Communication, Negotiation, Anger Management, Co-operation,Emotional Intelligence Hard Skills: SDLC, Agile Software Development, Kanban, SMAC Stack, Big Data, SCRUM",
+                "status":"done"
+            },
+            {
+                "title":"An Introduction to Interactive Programming in Python",
+                "description":"2 months of Interactive Learning Session Under Rice University",
+                "topics":"Python",
+                "learned":"Learning Python through Game Development.",
+                "status":"done"
+            }
+        ]
+    }
+
+
+
+

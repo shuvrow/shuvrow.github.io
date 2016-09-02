@@ -1,4 +1,4 @@
-var welcomeString='Working on It!! Wait  a little longer!!!';
+var welcomeString = "Working on It!! Wait  a little longer!!!";
 var count=0;
 var msg="<span class='fa fa-paperclip text-primary'></span>";
 welcomeString=welcomeString.split(" ");
@@ -43,6 +43,9 @@ function onAboutMe(){
 function onTypeOfWork(){
     $('.sideMenu').css('visibility','hidden');
     $('.pastMe').css('display','block');
+    $('.workExperiences').css('display','block');
+    $('.trainings').css('display','block');
+
     $('.futureMe').css('visibility','visible');
     clearInterval(appendMyApologies);
     $('.mainContent').html('');
@@ -51,8 +54,67 @@ function onTypeOfWork(){
 function onBackToPoorMe(){
     $('.sideMenu').css('visibility','visible');
     $('.pastMe').css('display','none');
+    $('.workExperiences').css('display','none');
+    $('.trainings').css('display','none');
     $('.futureMe').css('visibility','hidden');
     $('.mainContent > #nameBack').css('display','none');
     $('.sideView > .working').css('display','none');
     $('.sideView').append("<img src='images/working.gif' class='working'>");
 }
+
+
+
+function updateData(infoType){
+    $('.pastContent').html('');
+    $('.contentTitle').html('');
+    $.getJSON("js/project-data.json", function(json) {
+
+        $.each(json,function (index,data){
+            if(index=='past' && index==infoType){
+                $('.contentTitle').html('Projects I have Done');
+                $.each(data, function(index2,data1){
+                    if(index2=='laravel' || index2=='openCart' || index2=='underGrade' ){
+                        if(index2=='underGrade')
+                        {
+                            $('.pastContent').append('<h2>University Projects</h2>');
+                        }
+                        else if(index2=='laravel'){
+                            $('.pastContent').append('<h2>Laravel Projects</h2>');
+                        }
+                        else{
+                            $('.pastContent').append('<h2>OpenCart Projects</h2>');
+                        }
+                        $.each(data1, function(index3,data2){
+                            $('.pastContent').append("<p><b class='projectTitle'>Project : </b>"+data2.title+
+                                "<br><b class='projectDes'>Description : </b>"+data2.description+
+                                "<br><b class='projectTool'>Tools <icon class='fa fa-wrench' aria-hidden='true'></icon>: </b>"+data2.tools+
+                                "<br><b class='projectStatus'>Status : </b>"+data2.status+"</p>");
+                        });
+                    }
+                });
+            }
+            else if(index=="experiences" && index==infoType){
+                $('.contentTitle').html('Work Experiences');
+                $.each(data, function(index2,data1){
+                    $('.pastContent').append("<p><b class='projectTitle'>Organization Name <icon class='fa fa-bank' aria-hidden='true'></icon>: </b>"+data1.companyName+
+                        "<br><b class='projectDes'>Position <icon class='fa fa-binoculars' aria-hidden='true'></icon>: </b>"+data1.position+
+                        "<br><b class='projectTool'>Duration <icon class='fa fa-clock-o' aria-hidden='true'></icon>: </b>"+data1.time+
+                        "<br><b class='projectStatus'>Responsibilities <icon class='fa fa-wrench' aria-hidden='true'></icon>: </b>"+data1.responsibility+"</p>");
+                });
+            }
+            else if(index=="training" && index==infoType){
+                $('.contentTitle').html('Training Histories');
+                $.each(data, function(index2,data1){
+                    $('.pastContent').append("<p><b class='projectTitle'>Training : </b>"+data1.title+
+                        "<br><b class='projectDes'>Description : </b>"+data1.description+
+                        "<br><b class='projectTool'>Major Topics <icon class='fa fa-wrench' aria-hidden='true'></icon>: </b>"+data1.topics+
+                        "<br><b class='projectStatus'>Things Covered : </b>"+data1.learned+
+                        "<br><b class='projectStatus'>Status : </b>"+data1.status+"</p>");
+
+                });
+            }
+        });
+    });
+    $('#myModal').modal('show');
+}
+

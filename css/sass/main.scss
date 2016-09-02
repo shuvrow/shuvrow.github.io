@@ -44,7 +44,7 @@ ul{
   }
 }
 
-.pastMe{
+.pastMe,.trainings,.workExperiences{
 
   text-align: center;
   background-color: $primary-color;
@@ -74,4 +74,27 @@ ul{
   border: 0px;
 }
 
+.pastContent{
+  margin: 10px;
+  p{
+    margin: 5px;
+    border-bottom: 2px solid black;
+  }
+}
+.projectTitle{
+  color: green;
+}
+.projectDes{
+  color: #0f7595;
+}
+.projectTool{
+  color: #de6d00;
+}
+.projectStatus{
+  color: #7b2a80;
+}
 
+
+//.projectContainer{
+//  margin-top: 100px;
+//}
