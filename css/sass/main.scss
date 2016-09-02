@@ -1,13 +1,12 @@
+@import 'partialSass';
+$primary-color:#ffffff;
+$font-family:"Courier 10 Pitch";
+
 body{
   font-size: large;
-  background-color: #ffffff;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  width:100%;
-  overflow-x: hidden;
-
-}
+  background-color: $primary-color;
+  font-family:  $font-family;
+  }
 
 .mainContent{
   margin-top: 250px;
@@ -32,86 +31,42 @@ body{
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
 }
-.learnMore{
-  display: none;
-
-}
 .myDayToDayLife{
-  display: none;
   text-align: left;
 }
-.typeOfWork{
-  color: black;
-  box-shadow: #2e443f ;
-  font-weight: bold;
-  border-radius: 15px ;
-  border: solid black 5px;
-  min-width:150px;
-  min-height: 100px;
-}
-ul>li{
-  list-style: none;
-}
-li{
-  border-left: solid #a4aaff 5px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
+
+ul{
+  li{
+    list-style: none;
+    border-left: solid #a4aaff 5px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
 }
 
 .pastMe{
-  display: none;
-  text-align: center;
-  background-color: #FFFFFF;
-  float: left;
-  margin: 40px;
-  box-shadow: #2e443f ;
-  font-weight: bold;
-  border-radius: 15px ;
-  border: solid black 5px;
-  width:150px;
-  min-height: 100px;
-}
-.pastMe:hover{
-  color: white;
-  background-color: #000000;
 
+  text-align: center;
+  background-color: $primary-color;
+  float: left;
+  margin-top: 40px;
 }
+
 .futureMe{
   visibility: hidden;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: $primary-color;
   float: right;
   margin-top: 40px;
-  margin-right: 40px;
-  margin-bottom: 100px;
-  box-shadow: #2e443f ;
-  font-weight: bold;
-  border-radius: 15px ;
-  border: solid black 5px;
-  width:150px;
-  min-height: 100px;
+  margin-bottom: 20px;
 }
-.futureMe:hover{
-  color: white;
-  background-color: #000000;
 
-}
 #nameBack,#aboutMe{
   text-align: center;
-  background-color: #FFFFFF;
-
-  box-shadow: #2e443f ;
-  font-weight: bold;
-  border-radius: 15px ;
-  border: solid black 5px;
-  min-width:150px;
-  min-height: 100px;
+  background-color: $primary-color;
 }
 #nameBack{
-  margin-right: 40px;
-  margin-bottom: 100px;
   float: right;
-
 }
 .working{
   float: right;

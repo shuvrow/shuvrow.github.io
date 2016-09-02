@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width:100%;
+  overflow-x: hidden;
+  color: black;
+}
+
+.pastMe,
+.futureMe,
+.typeOfWork,
+#nameBack,
+#aboutMe{
+  box-shadow: #2e443f ;
+  font-weight: bold;
+  border-radius: 15px ;
+  border: solid black 5px;
+  width:150px;
+  min-height: 100px;
+  font-size: 15px;
+}
+
+.pastMe:hover,
+.futureMe:hover,
+#nameBack:hover{
+  color: white;
+  background-color: #000000;
+
+}
+
+.pastMe,
+.futureMe
+#nameBack{
+  margin-right: 35px;
+  margin-bottom: 100px;
+}
+.learnMore,
+.myDayToDayLife,
+.pastMe{
+  display: none;
+}
