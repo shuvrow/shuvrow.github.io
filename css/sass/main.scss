@@ -1,22 +1,23 @@
 @import 'partialSass';
 $primary-color:#ffffff;
-$font-family:"Courier 10 Pitch";
+$font-family:'Lato';
 
 body{
-  font-size: large;
+  font-size: medium;
   background-color: $primary-color;
   font-family:  $font-family;
   }
 
 .mainContent{
-  margin-top: 250px;
-  font-size: 25px;
+  margin-top: 200px;
+  font-size: 20px;
   color: black;
   text-decoration: solid;
   text-align: left;
+  margin-bottom:10px;
 }
 .sideMenu {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .sideView {
   float: right;
@@ -39,7 +40,7 @@ ul{
   li{
     list-style: none;
     border-left: solid #a4aaff 5px;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 10px;
     border-top-left-radius: 20px;
   }
 }
@@ -55,23 +56,14 @@ ul{
   margin-top: 20px;
 }
 
-.futureMe{
-  visibility: hidden;
-  text-align: center;
-  background-color: $primary-color;
-  float: right;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
 #nameBack,#aboutMe{
   text-align: center;
   background-color: $primary-color;
+  margin-top: 20px;
 }
 #nameBack{
   visibility: hidden;
   float: right;
-  margin-top: 40px;
 }
 .working{
   float: right;

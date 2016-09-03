@@ -21,7 +21,7 @@ body {
   border-radius: 15px;
   border: solid black 5px;
   width: 200px;
-  min-height: 90px;
+  min-height: 70px;
   font-size: 15px; }
 
 .contribution:hover,
@@ -38,7 +38,8 @@ body {
 .futureMe,
 #nameBack {
   margin-right: 35px;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  float: right; }
 
 .learnMore,
 .myDayToDayLife,
@@ -59,19 +60,20 @@ body {
   float: left; }
 
 body {
-  font-size: large;
+  font-size: medium;
   background-color: #ffffff;
-  font-family: "Courier 10 Pitch"; }
+  font-family: "Lato"; }
 
 .mainContent {
-  margin-top: 250px;
-  font-size: 25px;
+  margin-top: 200px;
+  font-size: 20px;
   color: black;
   text-decoration: solid;
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 10px; }
 
 .sideMenu {
-  margin-top: 50px; }
+  margin-top: 20px; }
 
 .sideView {
   float: right; }
@@ -91,7 +93,7 @@ body {
 ul li {
   list-style: none;
   border-left: solid #a4aaff 5px;
-  border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 10px;
   border-top-left-radius: 20px; }
 
 .pastMe,
@@ -104,22 +106,14 @@ ul li {
   float: left;
   margin-top: 20px; }
 
-.futureMe {
-  visibility: hidden;
-  text-align: center;
-  background-color: #ffffff;
-  float: right;
-  margin-top: 40px;
-  margin-bottom: 20px; }
-
 #nameBack, #aboutMe {
   text-align: center;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin-top: 20px; }
 
 #nameBack {
   visibility: hidden;
-  float: right;
-  margin-top: 40px; }
+  float: right; }
 
 .working {
   float: right;

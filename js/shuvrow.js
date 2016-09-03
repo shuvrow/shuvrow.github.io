@@ -53,7 +53,7 @@ function onBackToPoorMe(){
 }
 
 function showContent(){
-    $('.sideMenu').css('visibility','hidden');
+    $('.sideMenu').css('display','none');
     $('.pastMe').css('display','block');
     $('.workExperiences').css('display','block');
     $('.trainings').css('display','block');
@@ -63,7 +63,7 @@ function showContent(){
 }
 
 function hideContent(){
-    $('.sideMenu').css('visibility','visible');
+    $('.sideMenu').css('display','block');
     $('.pastMe').css('display','none');
     $('.workExperiences').css('display','none');
     $('.trainings').css('display','none');
