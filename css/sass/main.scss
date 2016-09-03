@@ -69,7 +69,9 @@ ul{
   background-color: $primary-color;
 }
 #nameBack{
+  visibility: hidden;
   float: right;
+  margin-top: 40px;
 }
 .working{
   float: right;
@@ -97,9 +99,9 @@ ul{
   color: #7b2a80;
 }
 .projectUrl{
+
   color: #23527c;
 }
-
 //.projectContainer{
 //  margin-top: 100px;
 //}
