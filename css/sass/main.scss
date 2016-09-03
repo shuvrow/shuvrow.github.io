@@ -1,0 +1,100 @@
+@import 'partialSass';
+$primary-color:#ffffff;
+$font-family:"Courier 10 Pitch";
+
+body{
+  font-size: large;
+  background-color: $primary-color;
+  font-family:  $font-family;
+  }
+
+.mainContent{
+  margin-top: 250px;
+  font-size: 25px;
+  color: black;
+  text-decoration: solid;
+  text-align: left;
+}
+.sideMenu {
+  margin-top: 50px;
+}
+.sideView {
+  float: right;
+}
+.aboutShuvrow
+{
+  display: none;
+  float: left;
+  text-align: left;
+  margin-top: 20px;
+  border-left: solid #7b2a80 5px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.myDayToDayLife{
+  text-align: left;
+}
+
+ul{
+  li{
+    list-style: none;
+    border-left: solid #a4aaff 5px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+}
+
+.pastMe,.trainings,.workExperiences{
+
+  text-align: center;
+  background-color: $primary-color;
+  float: left;
+  margin-top: 40px;
+}
+
+.futureMe{
+  visibility: hidden;
+  text-align: center;
+  background-color: $primary-color;
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#nameBack,#aboutMe{
+  text-align: center;
+  background-color: $primary-color;
+}
+#nameBack{
+  float: right;
+}
+.working{
+  float: right;
+  margin: 0px;
+  border: 0px;
+}
+
+.pastContent{
+  margin: 10px;
+  p{
+    margin: 5px;
+    border-bottom: 2px solid black;
+  }
+}
+.projectTitle{
+  color: green;
+}
+.projectDes{
+  color: #0f7595;
+}
+.projectTool{
+  color: #de6d00;
+}
+.projectStatus{
+  color: #7b2a80;
+}
+
+
+//.projectContainer{
+//  margin-top: 100px;
+//}
