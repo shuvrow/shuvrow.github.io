@@ -1,83 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c0817a1-bee8-49a9-aca8-9e17b011e715" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/about_me.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/apple-touch-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/apple-touch-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/apple-touch-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arrow-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arrow-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/banner_one.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/banner_three.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/banner_two.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/coming-soon-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hungry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-breakfast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-lunch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-move-light.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-move-light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-move.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-move.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom-out.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom-out.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom-white.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom-white2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom2.cur" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icon-zoom3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/link-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-agency-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-agency.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-border.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-personal-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-photography.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-pink-mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-pink2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-restaurant-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-restaurant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-spa-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-spa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-tattoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-travel-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo-travel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pull-menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/restaurant-img24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/restaurant-img36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/restaurant-img5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/restaurant-img7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/select-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/separator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/separator2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/separator3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/spa-img22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/spa-img23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/spa-img24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/spa-img25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/spa-img26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/spa-section-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/travel-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/travel-img37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/wedding-img18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/wedding-img19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/wedding-img20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/wedding-img21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/wedding-img4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7c0817a1-bee8-49a9-aca8-9e17b011e715" name="Default" comment="" />
     <ignored path="shuvrow.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -286,7 +210,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26117647" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
