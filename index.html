@@ -1,70 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-    <!--<link rel="import" href="layouts/css.html">-->
-    <!--<link rel="import" href="layouts/js.html">-->
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-
-    <style>
-        body{
-            font-size: large;
-            background-color: #ffffff;
-        }
-        .topUp{
-
-        }
-        .mainContent{
-            margin-top: 250px;
-            font-size: 25px;
-            color: black;
-        }
-
-
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <div class="row col-md-12 topUp">
-        <div class="col-md-3 sideMenu">
-        </div>
-        <div class="col-md-6 mainContent">
-
-        </div>
-        <div class="col-md-3">
-        </div>
-
-    </div>
-</div>
-<script>
-    var welcomeString='Working on It!! Wait for me a little longer!!!';
-    var count=0;
-    var msg='';
-    welcomeString=welcomeString.split(" ");
-
-
-    setInterval(function(){
-    if(count<welcomeString.length)
-    {
-        showMsg(welcomeString[count]);
-        count++;
-    }}, 1000);
-
-    function showMsg(msgg)
-    {
-        msg +=msgg+' ';
-        $('.mainContent').text(msg);
-    }
-
-    $('.sideMenu').append("<img src='images/thumbs.gif'>");
-</script>
-</body>
-=======
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -108,7 +41,8 @@
                 <button class="pastMe btn">Back To D Past</button>
                 <button class="workExperiences btn">Work Experiences</button>
                 <button class="trainings btn">Training History</button>
-
+                <button class="contribution btn">Open Source Contributions</button>
+                <button class="otherActivity btn">Online Activities</button>
 
                 <div class="sideMenu col-md-12">
                     <button id="aboutMe">About Me</button>
@@ -221,6 +155,25 @@
                 }
 
         });
+        $('.contribution').click(function(){
+                if (menuEnabled) {
+                    updateData('contribution');
+                    menuEnabled = false;
+                } else {
+                    menuEnabled = true;
+                }
+
+        });
+        $('.otherActivity').click(function(){
+                if (menuEnabled) {
+                    updateData('otherActivity');
+                    menuEnabled = false;
+                } else {
+                    menuEnabled = true;
+                }
+
+        });
+
 
 
 
@@ -231,5 +184,5 @@
 </script>
 
 </body>
->>>>>>> 9fee9ab8634c1c84f35e5fc98c4ba23109ce7d8f
+
 </html>

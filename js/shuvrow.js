@@ -45,6 +45,8 @@ function onTypeOfWork(){
     $('.pastMe').css('display','block');
     $('.workExperiences').css('display','block');
     $('.trainings').css('display','block');
+    $('.contribution').css('display','block');
+    $('.otherActivity').css('display','block');
 
     $('.futureMe').css('visibility','visible');
     clearInterval(appendMyApologies);
@@ -71,7 +73,7 @@ function updateData(infoType){
 
         $.each(json,function (index,data){
             if(index=='past' && index==infoType){
-                $('.contentTitle').html('Projects I have Done');
+                $('.contentTitle').html('<strong>Projects I have Done</strong>');
                 $.each(data, function(index2,data1){
                     if(index2=='laravel' || index2=='openCart' || index2=='underGrade' ){
                         if(index2=='underGrade')
@@ -94,7 +96,7 @@ function updateData(infoType){
                 });
             }
             else if(index=="experiences" && index==infoType){
-                $('.contentTitle').html('Work Experiences');
+                $('.contentTitle').html('<strong>Work Experiences</strong>');
                 $.each(data, function(index2,data1){
                     $('.pastContent').append("<p><b class='projectTitle'>Organization Name <icon class='fa fa-bank' aria-hidden='true'></icon>: </b>"+data1.companyName+
                         "<br><b class='projectDes'>Position <icon class='fa fa-binoculars' aria-hidden='true'></icon>: </b>"+data1.position+
@@ -103,7 +105,7 @@ function updateData(infoType){
                 });
             }
             else if(index=="training" && index==infoType){
-                $('.contentTitle').html('Training Histories');
+                $('.contentTitle').html('<strong>Training Histories</strong>');
                 $.each(data, function(index2,data1){
                     $('.pastContent').append("<p><b class='projectTitle'>Training : </b>"+data1.title+
                         "<br><b class='projectDes'>Description : </b>"+data1.description+
@@ -113,6 +115,29 @@ function updateData(infoType){
 
                 });
             }
+            else if(index=="contribution" && index==infoType){
+                $('.contentTitle').html('<strong> Open Source Contributions </strong>');
+                $.each(data, function(index2,data1){
+                    $('.pastContent').append("<p><b class='projectTitle'>Name : </b>"+data1.title+
+                        "<br><b class='projectDes'>Description : </b>"+data1.description+
+                        "<br><b class='projectTool'>Technologies <icon class='fa fa-wrench' aria-hidden='true'></icon>: </b>"+data1.tools+
+                        "<br><b class='projectStatus'>Status : </b>"+data1.status+
+                        "<br><b class='projectUrl'>Web Address : </b><a href='"+data1.url+"'>"+data1.title+"</a></p>");
+
+                });
+            }
+            else if(index=="otherActivity" && index==infoType){
+                $('.contentTitle').html('<strong> Online Activities </strong>');
+                $.each(data, function(index2,data1){
+                    $('.pastContent').append("<p><b class='projectTitle'>Name : </b>"+data1.title+
+                        "<br><b class='projectDes'>Description : </b>"+data1.description+
+                        "<br><b class='projectTool'>Technologies <icon class='fa fa-wrench' aria-hidden='true'></icon>: </b>"+data1.topics+
+                        "<br><b class='projectStatus'>Status : </b>"+data1.status+
+                        "<br><b class='projectUrl'>Web Address : </b><a href='"+data1.url+"'>"+data1.title+"</a></p>");
+                });
+            }
+
+
         });
     });
     $('#myModal').modal('show');

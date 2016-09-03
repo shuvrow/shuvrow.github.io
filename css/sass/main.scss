@@ -44,12 +44,15 @@ ul{
   }
 }
 
-.pastMe,.trainings,.workExperiences{
-
+.pastMe,
+.trainings,
+.workExperiences,
+.contribution,
+.otherActivity{
   text-align: center;
   background-color: $primary-color;
   float: left;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .futureMe{
@@ -93,7 +96,9 @@ ul{
 .projectStatus{
   color: #7b2a80;
 }
-
+.projectUrl{
+  color: #23527c;
+}
 
 //.projectContainer{
 //  margin-top: 100px;
