@@ -56,7 +56,7 @@
             ],
 
             "underGrade":[{
-                    "title":"Thesis: Add targeting using Hadoop multinode clustering",
+                    "title":"Thesis: Ad targeting using Hadoop multinode clustering",
                     "description":"Showing Advertisement based on users activity through different filters",
                     "tools":"Hadoop,pig latin, Java",
                     "status":"Completed"
@@ -103,7 +103,8 @@
               "title":"Database Auto Backup",
               "description":"Manual Backup and Scheduled Backup of your Database. Currently Working for Laravel 5 or Above",
               "tools":"PHP, Laravel 5.2 ,github, Packagist",
-              "status":"Ongoing"
+              "status":"Ongoing",
+              "url":"https://packagist.org/packages/rashed/database-backup"
             }
         ],
         "otherActivity":[
@@ -115,7 +116,7 @@
               "url":"https://prolaravel.blogspot.com/"
           },
           {
-              "title":"Ask and Answering Question on Stackoverflow",
+              "title":"Stackoverflow",
               "description":"Helping others by solving problems ",
               "topics":"PHP, Laravel ,Python, js,JQuery",
               "status":"Ongoing",
@@ -139,7 +140,7 @@
         ],
         "training":[{
               "title":"Networking",
-              "description":"Took a 2 months of training in BTCL on Telecommunication and Networking",
+              "description":"2 months of hands on training in BTCL on Telecommunication and Networking",
               "topics":"fiber optics,coaxial cable,hdlc, satellite communication",
               "learned":"Different media of communication, how it works, limitations and advantages.",
               "status":"done"

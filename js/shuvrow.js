@@ -27,94 +27,49 @@ $('.typeOfWork').click(function(){
     onTypeOfWork();
     var content=$('.myDayToDayLife').html();
     $('.mainContent').html(content);
-    $('#nameBack').css('display','block');
     $('.working').css('display','none');
     $('.sideView').append("<img src='images/idea.gif' class='working'>");
 
 });
-$('.mainContent').on('click','#nameBack',function(){
+$('#nameBack').click(function(){
 
     onBackToPoorMe();
 });
+
 function onAboutMe(){
     $('.aboutShuvrow').css('display','block');
     $('.learnMore').css('display','block');
 }
 function onTypeOfWork(){
-    $('.sideMenu').css('visibility','hidden');
-    $('.pastMe').css('display','block');
-    $('.workExperiences').css('display','block');
-    $('.trainings').css('display','block');
-
-    $('.futureMe').css('visibility','visible');
+    showContent();
     clearInterval(appendMyApologies);
     $('.mainContent').html('');
     $('.mainContent').css('margin-top','50px');
 }
 function onBackToPoorMe(){
-    $('.sideMenu').css('visibility','visible');
-    $('.pastMe').css('display','none');
-    $('.workExperiences').css('display','none');
-    $('.trainings').css('display','none');
-    $('.futureMe').css('visibility','hidden');
-    $('.mainContent > #nameBack').css('display','none');
+    hideContent();
     $('.sideView > .working').css('display','none');
     $('.sideView').append("<img src='images/working.gif' class='working'>");
 }
 
-
-
-function updateData(infoType){
-    $('.pastContent').html('');
-    $('.contentTitle').html('');
-    $.getJSON("js/project-data.json", function(json) {
-
-        $.each(json,function (index,data){
-            if(index=='past' && index==infoType){
-                $('.contentTitle').html('Projects I have Done');
-                $.each(data, function(index2,data1){
-                    if(index2=='laravel' || index2=='openCart' || index2=='underGrade' ){
-                        if(index2=='underGrade')
-                        {
-                            $('.pastContent').append('<h2>University Projects</h2>');
-                        }
-                        else if(index2=='laravel'){
-                            $('.pastContent').append('<h2>Laravel Projects</h2>');
-                        }
-                        else{
-                            $('.pastContent').append('<h2>OpenCart Projects</h2>');
-                        }
-                        $.each(data1, function(index3,data2){
-                            $('.pastContent').append("<p><b class='projectTitle'>Project : </b>"+data2.title+
-                                "<br><b class='projectDes'>Description : </b>"+data2.description+
-                                "<br><b class='projectTool'>Tools <icon class='fa fa-wrench' aria-hidden='true'></icon>: </b>"+data2.tools+
-                                "<br><b class='projectStatus'>Status : </b>"+data2.status+"</p>");
-                        });
-                    }
-                });
-            }
-            else if(index=="experiences" && index==infoType){
-                $('.contentTitle').html('Work Experiences');
-                $.each(data, function(index2,data1){
-                    $('.pastContent').append("<p><b class='projectTitle'>Organization Name <icon class='fa fa-bank' aria-hidden='true'></icon>: </b>"+data1.companyName+
-                        "<br><b class='projectDes'>Position <icon class='fa fa-binoculars' aria-hidden='true'></icon>: </b>"+data1.position+
-                        "<br><b class='projectTool'>Duration <icon class='fa fa-clock-o' aria-hidden='true'></icon>: </b>"+data1.time+
-                        "<br><b class='projectStatus'>Responsibilities <icon class='fa fa-wrench' aria-hidden='true'></icon>: </b>"+data1.responsibility+"</p>");
-                });
-            }
-            else if(index=="training" && index==infoType){
-                $('.contentTitle').html('Training Histories');
-                $.each(data, function(index2,data1){
-                    $('.pastContent').append("<p><b class='projectTitle'>Training : </b>"+data1.title+
-                        "<br><b class='projectDes'>Description : </b>"+data1.description+
-                        "<br><b class='projectTool'>Major Topics <icon class='fa fa-wrench' aria-hidden='true'></icon>: </b>"+data1.topics+
-                        "<br><b class='projectStatus'>Things Covered : </b>"+data1.learned+
-                        "<br><b class='projectStatus'>Status : </b>"+data1.status+"</p>");
-
-                });
-            }
-        });
-    });
-    $('#myModal').modal('show');
+function showContent(){
+    $('.sideMenu').css('display','none');
+    $('.pastMe').css('display','block');
+    $('.workExperiences').css('display','block');
+    $('.trainings').css('display','block');
+    $('.contribution').css('display','block');
+    $('.otherActivity').css('display','block');
+    $('#nameBack').css('visibility','visible');
 }
 
+function hideContent(){
+    $('.sideMenu').css('display','block');
+    $('.pastMe').css('display','none');
+    $('.workExperiences').css('display','none');
+    $('.trainings').css('display','none');
+    $('.contribution').css('display','none');
+    $('.otherActivity').css('display','none');
+    $('#nameBack').css('visibility','hidden');
+}
+
+$.getScript('js/userInformations.js');
