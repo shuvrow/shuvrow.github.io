@@ -112,8 +112,7 @@ ul li {
   margin-top: 20px; }
 
 #nameBack {
-  visibility: hidden;
-  float: right; }
+  visibility: hidden; }
 
 .working {
   float: right;
@@ -140,3 +139,7 @@ ul li {
 
 .projectUrl {
   color: #23527c; }
+
+.madness {
+  float: left;
+  width: 100%; }

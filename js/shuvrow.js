@@ -17,7 +17,7 @@ function showMsg(msgg)
     $('.mainContent').html(msg);
 }
 
-$('.sideView').append("<img src='images/working.gif' class='working'>");
+$('.sideView').append("<img src='images/working.gif' class='working img-responsive'>");
 
 $('#aboutMe').click(function(){
     onAboutMe();
@@ -28,7 +28,7 @@ $('.typeOfWork').click(function(){
     var content=$('.myDayToDayLife').html();
     $('.mainContent').html(content);
     $('.working').css('display','none');
-    $('.sideView').append("<img src='images/idea.gif' class='working'>");
+    $('.sideView').append("<img src='images/idea.gif' class='img-responsive' class='working'>");
 
 });
 $('#nameBack').click(function(){
@@ -49,7 +49,7 @@ function onTypeOfWork(){
 function onBackToPoorMe(){
     hideContent();
     $('.sideView > .working').css('display','none');
-    $('.sideView').append("<img src='images/working.gif' class='working'>");
+    $('.sideView').append("<img src='images/working.gif' class='working img-responsive'>");
 }
 
 function showContent(){
