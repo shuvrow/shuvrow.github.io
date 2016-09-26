@@ -27,8 +27,9 @@ $('.typeOfWork').click(function(){
     onTypeOfWork();
     var content=$('.myDayToDayLife').html();
     $('.mainContent').html(content);
+    $('.mainContent').css('display','block');
     $('.working').css('display','none');
-    $('.sideView').append("<img src='images/idea.gif' class='img-responsive' class='working'>");
+    $('.sideView').append("<img src='images/idea.gif' class='img-responsive working-idea' >");
 
 });
 $('#nameBack').click(function(){
@@ -48,8 +49,7 @@ function onTypeOfWork(){
 }
 function onBackToPoorMe(){
     hideContent();
-    $('.sideView > .working').css('display','none');
-    $('.sideView').append("<img src='images/working.gif' class='working img-responsive'>");
+    //$('.sideView').append("<img src='images/working.gif' class='working img-responsive'>");
 }
 
 function showContent(){
@@ -63,6 +63,7 @@ function showContent(){
 }
 
 function hideContent(){
+    $('.mainContent').css('display','none');
     $('.sideMenu').css('display','block');
     $('.pastMe').css('display','none');
     $('.workExperiences').css('display','none');
@@ -70,6 +71,8 @@ function hideContent(){
     $('.contribution').css('display','none');
     $('.otherActivity').css('display','none');
     $('#nameBack').css('visibility','hidden');
+    $('.working-idea').css('display','none');
+    $('.sideView > .working').css('display','block');
 }
 
 $.getScript('js/userInformations.js');
