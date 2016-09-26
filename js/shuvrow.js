@@ -73,3 +73,5 @@ function hideContent(){
 }
 
 $.getScript('js/userInformations.js');
+
+//$('.myDayToDayLife')
