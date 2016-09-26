@@ -16,6 +16,10 @@ body{
   text-align: left;
   margin-bottom:10px;
 }
+
+//.mainContent>p:first-child{
+//    margin-top: 220px;
+//}
 .sideMenu {
   margin-top: 20px;
 }
@@ -63,7 +67,7 @@ ul{
 }
 #nameBack{
   visibility: hidden;
-  float: right;
+
 }
 .working{
   float: right;
@@ -94,6 +98,9 @@ ul{
 
   color: #23527c;
 }
-//.projectContainer{
-//  margin-top: 100px;
-//}
+.madness{
+  float: left;
+  width: 100%;
+}
+
+
