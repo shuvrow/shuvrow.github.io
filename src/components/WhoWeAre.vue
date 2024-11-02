@@ -3,12 +3,11 @@
 </script>
 
 <template>
-  <div class="grid grid-cols-1">
+  <div id="work-approch" class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xsm:grid-cols-1 p-5">
 
 
-  <section id="who-we-are" class="flex items-center justify-between py-16 bg-gray-100">
 
-    <div class="w-1/2 px-8">
+    <div class="col-span-1 px-8">
       <h2 class="text-3xl font-bold mb-4">Regular Activities</h2>
       <ul class="">
             <li class="mb-3 p-3 border-2 rounded-xl border-r-stone-300 font-bold">Requirement Collection</li>
@@ -19,7 +18,7 @@
             <li class="mb-3 p-3 border-2 rounded-xl border-r-stone-300 font-bold">Maintenance</li>
           </ul>
     </div>
-    <div class="w-1/2 px-8 bg-gray-50 rounded-lg shadow-lg py-5">
+    <div class="col-span-1 px-8 bg-gray-50 rounded-lg shadow-lg py-5">
 
       <div>
         <h2 class="text-2xl font-bold mb-4">Steps to Build Efficient Applications</h2>
@@ -45,7 +44,7 @@
       </div>
 
     </div>
-  </section>
+ 
   </div>
 </template>
 

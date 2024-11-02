@@ -7,6 +7,9 @@ export default {
   theme: {
 
     extend: {
+      screens: {
+        'xsm': '480px', // Define an extra-small breakpoint at 480px
+      },
       colors: {
         amber: {
           custom: '#ffb444',

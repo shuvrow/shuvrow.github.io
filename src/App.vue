@@ -5,7 +5,7 @@ import Header from './components/Header.vue';
 import WhoWeAre from './components/WhoWeAre.vue';
 import Portfolio from './components/Portfolio.vue';
 import Technologies from './components/Technologies.vue';
-import ContactUs from './components/ContactUs.vue';
+// import ContactUs from './components/ContactUs.vue';
 import Footer from './components/Footer.vue';
 
 </script>
@@ -20,7 +20,7 @@ import Footer from './components/Footer.vue';
     <WhoWeAre />
     <Portfolio />
     <Technologies />
-    <ContactUs />
+    <!-- <ContactUs /> -->
     <Footer />
 
 </template>
